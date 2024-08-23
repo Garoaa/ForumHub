@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: "Inter", sans-serif;;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.logoAlura {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.conteiner {
+    display: flex;
+}
+
+.conteiner__secaoPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25rem;
+    padding: 5% 10% 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner__secaoPrincipal__text-area {
+    border: none;
+    color: #0A3871;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+::placeholder {color: #0A3871;}
+    .conteiner__secaoPrincipal__text-area:focus {
+        outline: none;
+    }
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.botoes__aviso {
+    display: flex;
+    font-size: 12px;
+}
+
+.botoes__botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.botoes__criptografar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: #0A3871;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.botoes__criptografar:hover {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 18px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: #0A3871;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.botoes__descriptografar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    text-decoration: none;
+}
+
+.botoes__descriptografar:hover {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 18px;
+    justify-content: center;
+    padding: 1.34rem 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    text-decoration: none;
+}
+
+.conteiner__secaoSecundaria {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: solid #FFFFFF;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 3px;
+    border-radius: 32px;
+}
+
+.conteiner__secaoSecundaria__titulo {
+    font-size: 24px;
+    color: #343A40;
+    background-color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    padding: 32px;
+}
+
+.conteiner__secaoSecundaria__texto {
+    margin: 3%;
+    font-size: 16px;
+    color: #343A40;
+    background-color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.conteiner__secaoSecundaria__imagem {
+    background-color: #FFFFFF;
+    margin: 20%;
+}

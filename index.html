@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="logoAlura">
+        <img src="./Assets/logoAlura.svg" alt="Logo da Alura">
+    </header>
+    <main class="conteiner">
+        <section class="conteiner__secaoPrincipal">
+            <textarea class="conteiner__secaoPrincipal__text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="botoes">
+                <div class="botoes__aviso">
+                    <img src="./Assets/exclamacao.png" alt="Imagem do ponto de exclamação">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes__botoes">
+                    <button onclick="criptografar()" class="botoes__criptografar">Criptografar</button>
+                    <button class="botoes__descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="conteiner__secaoSecundaria">
+            <img class="conteiner__secaoSecundaria__imagem" src="./Assets/pessoaComLupa.svg" alt="Pessoa com Lupa">
+            <h1 class="conteiner__secaoSecundaria__titulo">Nenhuma mensagem encontrada</h1>
+            <p class="conteiner__secaoSecundaria__texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <div class="conteiner__secaoSecundaria__resposta">
+                <textarea class="conteiner__secaoSecundaria__texto__saida" id="saida"></textarea>
+            </div>
+        </section>
+
+       
+
+        <script src="script.js" defer></script>
+    </main>
+    <footer></footer>
+</body>
+</html>
