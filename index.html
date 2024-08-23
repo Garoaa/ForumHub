@@ -19,24 +19,16 @@
                     <p>Apenas letras minúsculas e sem acento.</p>
                 </div>
                 <div class="botoes__botoes">
-                    <button onclick="criptografar()" class="botoes__criptografar">Criptografar</button>
-                    <button class="botoes__descriptografar">Descriptografar</button>
+                    <button onclick="botaoCriptografar()" class="botoes__criptografar">Criptografar</button>
+                    <button onclick="botaoDescriptografar()" class="botoes__descriptografar">Descriptografar</button>
                 </div>
             </div>
         </section>
 
         <section class="conteiner__secaoSecundaria">
-            <img class="conteiner__secaoSecundaria__imagem" src="./Assets/pessoaComLupa.svg" alt="Pessoa com Lupa">
-            <h1 class="conteiner__secaoSecundaria__titulo">Nenhuma mensagem encontrada</h1>
-            <p class="conteiner__secaoSecundaria__texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
-            <div class="conteiner__secaoSecundaria__resposta">
-                <textarea class="conteiner__secaoSecundaria__texto__saida" id="saida"></textarea>
-            </div>
+            <textarea class="conteiner__secaoSecundaria__resposta" cols="20" rows="10" id="resposta" placeholder="Nenhuma mensagem encontrada" disabled></textarea>
         </section>
-
-       
-
-        <script src="script.js" defer></script>
+        <script src="script.js"></script>
     </main>
     <footer></footer>
 </body>

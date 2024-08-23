@@ -19,6 +19,7 @@ body {
 
 .conteiner {
     display: flex;
+    height: 100vh;
 }
 
 .conteiner__secaoPrincipal{
@@ -143,35 +144,55 @@ body {
 
 .conteiner__secaoSecundaria {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     background-color: #FFFFFF;
     border: solid #FFFFFF;
     text-align: center;
     justify-items: center;
-    justify-content: center;
-    gap: 3px;
     border-radius: 32px;
+    margin: 5% 5% 3% 5%;
 }
 
-.conteiner__secaoSecundaria__titulo {
+.conteiner__secaoSecundaria__resposta:disabled {
+    font-size: 24px;
+    color: #343A40;
+    background-image: url(./Assets/pessoaComLupa.svg);
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    background-position: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 40px;
+    border: none;
+    border-radius: 32px;
+    height: 775px;
+    width: 1,94px;
+}
+
+.conteiner__secaoSecundaria__resposta {
     font-size: 24px;
     color: #343A40;
     background-color: #FFFFFF;
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    padding: 32px;
-}
-
-.conteiner__secaoSecundaria__texto {
-    margin: 3%;
-    font-size: 16px;
-    color: #343A40;
-    background-color: #FFFFFF;
+    background-position: center;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    padding: 40px;
+    border: none;
+    border-radius: 32px;
+    height: 90%;
+    width: 1,94px;
 }
 
-.conteiner__secaoSecundaria__imagem {
-    background-color: #FFFFFF;
-    margin: 20%;
+.conteiner__secaoSecundaria__resposta:focus {
+    outline: none;
 }
+
+.conteiner__secaoSecundaria__resposta::placeholder {
+    font-size: 24px;
+    color: #343A40;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
